@@ -18,4 +18,4 @@ with open(filename, 'r') as fr:
 D_list = sorted(D.items(), key=lambda x: x[1], reverse=True)
 
 for i in D_list[:number]:
-	print(i)
+	print("%s%8d" % (i[0],i[1]))
