@@ -2,7 +2,7 @@
 import sys	
 
 filename=sys.argv[1]
-number=sys.argv[2]
+number=int(sys.argv[2])
 
 D = {}
 
