@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-filename = input("")
-number = int(input(""))
+filename, number  = input("").split()
+number = int(number)
 
 D = {}
 
@@ -16,5 +16,5 @@ with open(filename, 'r') as fr:
 			 
 D_list = sorted(D.items(), key=lambda x: x[1], reverse=True)
 
-print(D_list[:10]) 
+print(D_list[:number]) 
 	
