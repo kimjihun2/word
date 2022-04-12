@@ -17,5 +17,5 @@ with open(filename, 'r') as fr:
 			 
 D_list = sorted(D.items(), key=lambda x: x[1], reverse=True)
 
-print(D_list[:number]) 
-	
+for i in D_list[:number]:
+	print(i)
