@@ -1,7 +1,8 @@
 #!/usr/bin/python3
+import sys	
 
-filename, number  = input("").split()
-number = int(number)
+filename=sys.argv[1]
+number=sys.argv[2]
 
 D = {}
 
